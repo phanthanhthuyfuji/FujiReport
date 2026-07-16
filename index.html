@@ -1,10 +1,36 @@
-<DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Fuji Report</title>
-    </head>
-    <body style="margin:0">
- <iframe title="Fuji Report_26.06" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNzI5MjUyZmMtYmRjNS00ZTFhLWIwNGUtMjE2M2ZlZjRiYmVhIiwidCI6IjE4MmVkZDhiLTQ5YjgtNGFmOC1iNWU0LWY5ZWRmMDhhZTk2NyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style>
+body{
+    margin:0;
+    overflow:hidden;
+}
+
+.powerbi{
+    width:100vw;
+    height:100vh;
+}
+
+.powerbi iframe{
+    width:100%;
+    height:100%;
+    border:0;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="powerbi">
+    <iframe
+        src="https://app.powerbi.com/view?r=eyJrIjoiNzI5MjUyZmMtYmRjNS00ZTFhLWIwNGUtMjE2M2ZlZjRiYmVhIiwidCI6IjE4MmVkZDhiLTQ5YjgtNGFmOC1iNWU0LWY5ZWRmMDhhZTk2NyIsImMiOjEwfQ%3D%3D"
+        allowfullscreen>
+    </iframe>
+</div>
+
+</body>
+</html>
